@@ -1,0 +1,25 @@
+namespace: samdoran
+name: hiveos
+version: 0.0.1
+readme: README.md
+description: Collection of modules and plugins for managing Aerohive HiveOS devices.
+repository: https://github.com/samdoran/ansible-collection-hiveos.git
+documentation: http://docs.example.com
+homepage: https://github.com/samdoran/ansible-collection-hiveos
+issues: https://github.com/samdoran/ansible-collection-hiveos/issues
+
+authors:
+  - Sam Doran <sdoran@redhat.com>
+
+license:
+- GPL-2.0-or-later
+
+tags:
+  - networking
+  - aerohive
+  - hiveos
+
+dependencies:
+  ansible.netcommon: 1.0.0
+
+build_ignore: []
